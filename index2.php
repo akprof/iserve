@@ -1,0 +1,616 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ekiti ServiceConnect - Government Services Portal</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css">
+    <link rel="stylesheet" href="css/mystyle.css">
+    <link rel="icon" type="image/x-icon" href="images/ekiti-logo.png">
+</head>
+<body>
+    <!-- Landing Page -->
+    <div id="landing-page">
+        <!-- Header Section -->
+        <header>
+            <div class="container">
+                <div class="header-content">
+                    <div class="logo-section">
+                        <div class="state-logo">
+                            <img src="images/ekiti-logo.png" alt="Ekiti Logo" width="80" class="me-2">
+                        </div>
+                        <div class="app-info">
+                            <h1>Ekiti ServiceConnect</h1>
+                            <p>Ekiti State Government</p>
+                        </div>
+                    </div>
+                    <div class="auth-buttons">
+                        <a href="#" class="btn btn-login" id="login-btn"><i class="fas fa-sign-in-alt"></i> Login</a>
+                        <a href="#" class="btn btn-register" id="register-btn"><i class="fas fa-user-plus"></i> Register</a>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <!-- Hero Carousel -->
+        <section class="hero-carousel">
+            <div class="hero-slide" style="background-image: url('images/newslider3.jpeg');">
+                <div class="container">
+                    <div class="hero-content">
+                        <h2>Streamlined Government Services</h2>
+                        <p>Access all Ekiti State Government services through a single, unified platform designed for your convenience.</p>
+                        <a href="#services-section" class="hero-btn">Explore Services</a>
+                    </div>
+                </div>
+            </div>
+            <div class="hero-slide" style="background-image: url('images/govt2.jpg');">
+                <div class="container">
+                    <div class="hero-content">
+                        <h2>Digital Transformation for Ekiti</h2>
+                        <p>Experience the future of public service delivery with our innovative digital solutions.</p>
+                        <a href="#services-section" class="hero-btn">View Services</a>
+                    </div>
+                </div>
+            </div>
+            <div class="hero-slide" style="background-image: url('images/govt.jpg');">
+                <div class="container">
+                    <div class="hero-content">
+                        <h2>Connecting Citizens to Government</h2>
+                        <p>Our platform bridges the gap between citizens and government agencies for efficient service delivery.</p>
+                        <a href="#services-section" class="hero-btn">Get Started</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section class="about-section">
+            <div class="container">
+                <div class="about-content">
+                    <div class="about-text">
+                        <h2>What is Ekiti ServiceConnect?</h2>
+                        <p>Ekiti ServiceConnect is a one-stop digital hub that connects citizens, businesses, and government institutions. From land services to health insurance, job creation, investment promotion, and more – all government services are now at your fingertips.</p>
+                        <p>Our platform is designed to make government interactions transparent, accessible, and efficient. We're committed to reducing bureaucracy and improving service delivery through technology.</p>
+                        <p>Whether you're a citizen seeking services, a business looking to invest, or a government employee streamlining processes, Ekiti ServiceConnect is your gateway to a smarter, more connected Ekiti State.</p>
+                    </div>
+                    <div class="about-image">
+                        <img src="images/serviceconnect.jpg" alt="Ekiti ServiceConnect Platform">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Services Section -->
+        <section id="services-section" class="services-section">
+            <div class="container">
+                <div class="section-title">
+                    <h2>Government Services</h2>
+                </div>
+                
+                <div class="services-slider" id="servicesSlider">
+                    <!-- Service cards will be dynamically generated here -->
+                </div>
+            </div>
+        </section>
+
+        <!-- Features Section -->
+        <section class="features-section">
+            <div class="container">
+                <div class="section-title">
+                    <h2 style="color: var(--white);">Why Choose Ekiti ServiceConnect?</h2>
+                </div>
+                
+                <div class="features-grid">
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <i class="fas fa-clock"></i>
+                        </div>
+                        <h3>Time Saving</h3>
+                        <p>Access multiple services from one platform without visiting different offices.</p>
+                    </div>
+                    
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <i class="fas fa-lock"></i>
+                        </div>
+                        <h3>Secure & Safe</h3>
+                        <p>Your data is protected with advanced security measures and encryption.</p>
+                    </div>
+                    
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <i class="fas fa-mobile-alt"></i>
+                        </div>
+                        <h3>Mobile Friendly</h3>
+                        <p>Access services from any device, anywhere, at any time.</p>
+                    </div>
+                    
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <i class="fas fa-headset"></i>
+                        </div>
+                        <h3>24/7 Support</h3>
+                        <p>Our support team is always available to assist you with any issues.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Stats Section -->
+        <section class="stats-section">
+            <div class="container">
+                <div class="section-title">
+                    <h2>Our Impact in Numbers</h2>
+                </div>
+                
+                <div class="stats-grid">
+                    <div class="stat-item">
+                        <div class="stat-number">50,000+</div>
+                        <div class="stat-label">Citizens Served</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number">15+</div>
+                        <div class="stat-label">Government Services</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number">95%</div>
+                        <div class="stat-label">Satisfaction Rate</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number">24/7</div>
+                        <div class="stat-label">Service Availability</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Testimonials Section -->
+        <section class="testimonials-section">
+            <div class="container">
+                <div class="section-title">
+                    <h2>What Our Users Say</h2>
+                </div>
+                
+                <div class="testimonial-slider" id="testimonialSlider">
+                    <div class="testimonial-card">
+                        <div class="testimonial-text">
+                            "Ekiti ServiceConnect has transformed how I interact with government services. What used to take days now takes minutes!"
+                        </div>
+                        <div class="testimonial-author">- Adeola Johnson, Business Owner</div>
+                    </div>
+                    <div class="testimonial-card">
+                        <div class="testimonial-text">
+                            "As a civil servant, I've seen firsthand how this platform has improved efficiency and transparency in our operations."
+                        </div>
+                        <div class="testimonial-author">- Tunde Williams, Government Employee</div>
+                    </div>
+                    <div class="testimonial-card">
+                        <div class="testimonial-text">
+                            "The health insurance registration was so straightforward. I'm impressed with how user-friendly the platform is."
+                        </div>
+                        <div class="testimonial-author">- Chinyere Okoro, Retired Teacher</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- News Section -->
+        <section class="news-section">
+            <div class="container">
+                <div class="section-title">
+                    <h2>Latest News & Updates</h2>
+                </div>
+                
+                <div class="news-grid">
+                    <div class="news-card">
+                        <div class="news-image" style="background-image: url('images/landservice.jpg');"></div>
+                        <div class="news-content">
+                            <div class="news-date">June 15, 2023</div>
+                            <div class="news-title">New Land Services Portal Launched</div>
+                            <p>The Ekiti State Bureau of Land Services has launched a new digital portal for streamlined land transactions.</p>
+                        </div>
+                    </div>
+                    <div class="news-card">
+                        <div class="news-image" style="background-image: url('images/healthservice.png');"></div>
+                        <div class="news-content">
+                            <div class="news-date">May 28, 2023</div>
+                            <div class="news-title">Health Insurance Scheme Expands Coverage</div>
+                            <p>The Ekiti State Health Insurance Scheme now covers additional medical services for enrolled citizens.</p>
+                        </div>
+                    </div>
+                    <div class="news-card">
+                        <div class="news-image" style="background-image: url('images/business.png');"></div>
+                        <div class="news-content">
+                            <div class="news-date">April 10, 2023</div>
+                            <div class="news-title">Investment Portal Attracts New Businesses</div>
+                            <p>EKDIPA reports a 30% increase in investment inquiries since launching the new digital portal.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- FAQ Section -->
+        <section class="faq-section">
+            <div class="container">
+                <div class="section-title">
+                    <h2>Frequently Asked Questions</h2>
+                </div>
+                
+                <div class="faq-container">
+                    <div class="faq-item">
+                        <div class="faq-question">
+                            How do I create an account on Ekiti ServiceConnect?
+                            <i class="fas fa-chevron-down"></i>
+                        </div>
+                        <div class="faq-answer">
+                            To create an account, click on the "Register" button at the top right of the page. You'll need to provide some basic information and verify your email address. Once verified, you can access all services.
+                        </div>
+                    </div>
+                    <div class="faq-item">
+                        <div class="faq-question">
+                            Is my personal information safe on this platform?
+                            <i class="fas fa-chevron-down"></i>
+                        </div>
+                        <div class="faq-answer">
+                            Yes, we take data security seriously. All personal information is encrypted and stored securely. We comply with data protection regulations to ensure your privacy.
+                        </div>
+                    </div>
+                    <div class="faq-item">
+                        <div class="faq-question">
+                            What if I need help using a service?
+                            <i class="fas fa-chevron-down"></i>
+                        </div>
+                        <div class="faq-answer">
+                            We offer 24/7 customer support through multiple channels including phone, email, and live chat. You can also visit any of our service centers for in-person assistance.
+                        </div>
+                    </div>
+                    <div class="faq-item">
+                        <div class="faq-question">
+                            Are there any fees for using Ekiti ServiceConnect?
+                            <i class="fas fa-chevron-down"></i>
+                        </div>
+                        <div class="faq-answer">
+                            Creating an account and accessing the platform is free. However, some government services may have associated fees, which will be clearly indicated before you proceed with any transaction.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- CTA Section -->
+        <section class="cta-section">
+            <div class="container">
+                <div class="cta-content">
+                    <h2>Ready to Get Started?</h2>
+                    <p>Join thousands of citizens and businesses already using Ekiti ServiceConnect to access government services efficiently and transparently.</p>
+                    <div class="cta-buttons">
+                        <a href="#" class="cta-btn cta-btn-primary" id="cta-register"><i class="fas fa-user-plus"></i> Create Your Account</a>
+                        <a href="#" class="cta-btn cta-btn-secondary"><i class="fas fa-play-circle"></i> Watch Demo</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer>
+            <div class="container">
+                <div class="footer-content">
+                    <div class="footer-section">
+                        <h3>Ekiti ServiceConnect</h3>
+                        <p>A unified platform for accessing Ekiti State Government services efficiently and securely. Our mission is to make government services accessible to all citizens.</p>
+                        <div class="social-links">
+                            <a href="#"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                            <a href="#"><i class="fab fa-instagram"></i></a>
+                            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                        </div>
+                    </div>
+                    
+                    <div class="footer-section">
+                        <h3>Quick Links</h3>
+                        <a href="#">Home</a>
+                        <a href="#">About Us</a>
+                        <a href="#">Services</a>
+                        <a href="#">News & Updates</a>
+                        <a href="#">Contact</a>
+                        <a href="#">FAQ</a>
+                    </div>
+                    
+                    <div class="footer-section">
+                        <h3>Contact Information</h3>
+                        <div class="contact-info">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <p>Governor's Office, Ado-Ekiti, Ekiti State</p>
+                        </div>
+                        <div class="contact-info">
+                            <i class="fas fa-phone"></i>
+                            <p>+234 XXX XXXX XXX</p>
+                        </div>
+                        <div class="contact-info">
+                            <i class="fas fa-envelope"></i>
+                            <p>info@ekitiserviceconnect.gov.ng</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="copyright">
+                    <p>&copy; 2023 Ekiti ServiceConnect. All rights reserved. | Ekiti State Government</p>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <!-- Login Modal -->
+    <div class="login-modal" id="login-modal">
+        <div class="login-container">
+            <span class="close-modal" id="close-modal">&times;</span>
+            <div class="login-header">
+                <h2>Login to Ekiti ServiceConnect</h2>
+                <p>Select your role to continue</p>
+            </div>
+            <div class="login-options">
+                <div class="login-option citizen" data-role="citizen">
+                    <i class="fas fa-user"></i>
+                    Login as Citizen
+                </div>
+                <div class="login-option mda" data-role="mda">
+                    <i class="fas fa-building"></i>
+                    Login as MDA Official
+                </div>
+                <!-- <div class="login-option demo" data-role="demo">
+                    <i class="fas fa-eye"></i>
+                    View Demo (Both Roles)
+                </div> -->
+            </div>
+        </div>
+    </div>
+
+    <!-- Citizen Dashboard -->
+    <div id="citizen-dashboard" class="dashboard">
+        <div class="dashboard-header">
+            <div class="container">
+                <div class="dashboard-nav">
+                    <div class="dashboard-logo">
+                        <img src="images/ekiti-logo.png" alt="Ekiti Logo" width="80" class="me-2">
+                        <h1>Ekiti ServiceConnect</h1>
+                    </div>
+                    <button class="mobile-menu-btn" id="citizen-menu-btn">
+                        <i class="fas fa-bars"></i>
+                    </button>
+                    <div class="dashboard-user">
+                        <div class="user-info">
+                            <div class="name">Adeola Johnson</div>
+                            <div class="role">Citizen</div>
+                        </div>
+                        <div class="user-avatar">AJ</div>
+                        <button class="logout-btn" id="citizen-logout">Logout</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="dashboard-sidebar" id="citizen-sidebar">
+            <ul class="sidebar-menu">
+                <li><a href="#" class="active"><i class="fas fa-home"></i> Dashboard</a></li>
+                <li><a href="#"><i class="fas fa-list-alt"></i> My Applications</a></li>
+                <li><a href="#"><i class="fas fa-bolt"></i> Services</a></li>
+                <li><a href="#"><i class="fas fa-file-alt"></i> Documents</a></li>
+                <li><a href="#"><i class="fas fa-bell"></i> Notifications</a></li>
+                <li><a href="#"><i class="fas fa-cog"></i> Settings</a></li>
+                <li><a href="#"><i class="fas fa-question-circle"></i> Help & Support</a></li>
+            </ul>
+        </div>
+
+        <div class="dashboard-content" id="citizen-content">
+            <div class="dashboard-main">
+                <h2 class="dashboard-title">Citizen Dashboard</h2>
+                
+                <div class="stats-cards">
+                    <div class="stat-card">
+                        <div class="number">5</div>
+                        <div class="label">Active Applications</div>
+                    </div>
+                    <div class="stat-card yellow">
+                        <div class="number">12</div>
+                        <div class="label">Completed Services</div>
+                    </div>
+                    <div class="stat-card red">
+                        <div class="number">2</div>
+                        <div class="label">Pending Actions</div>
+                    </div>
+                </div>
+
+                <div class="dashboard-section">
+                    <h3 class="dashboard-section-title"><i class="fas fa-bolt"></i> Quick Access Services</h3>
+                    <div class="services-grid">
+                        <div class="service-item">
+                            <h3>Tourism & Hospitality</h3>
+                            <p>Register and promote tourism centers, manage hospitality businesses, and access tourism development support in Ekiti State.</p>
+                            <div class="service-actions">
+                                <a href="#" class="service-btn primary">Apply Now</a>
+                                <a href="#" class="service-btn secondary">Learn More</a>
+                            </div>
+                        </div>
+                        <div class="service-item">
+                            <h3>Land Services & Title Registration</h3>
+                            <p>Apply for land titles, conduct searches, and complete property registration processes.</p>
+                            <div class="service-actions">
+                                <a href="#" class="service-btn primary">Apply Now</a>
+                                <a href="#" class="service-btn secondary">Learn More</a>
+                            </div>
+                        </div>
+                        <div class="service-item">
+                            <h3>Health Insurance Registration</h3>
+                            <p>Enroll in the state health insurance scheme and access healthcare services.</p>
+                            <div class="service-actions">
+                                <a href="#" class="service-btn primary">Apply Now</a>
+                                <a href="#" class="service-btn secondary">Learn More</a>
+                            </div>
+                        </div>
+                        <div class="service-item">
+                            <h3>Business Registration & Licensing</h3>
+                            <p>Register your business, apply for permits, and access entrepreneurial support.</p>
+                            <div class="service-actions">
+                                <a href="#" class="service-btn primary">Apply Now</a>
+                                <a href="#" class="service-btn secondary">Learn More</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="dashboard-section">
+                    <h3 class="dashboard-section-title"><i class="fas fa-history"></i> Recent Applications</h3>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Service</th>
+                                <th>Date Applied</th>
+                                <th>Status</th>
+                                <th>Action</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Land Title Registration</td>
+                                <td>15 Oct, 2023</td>
+                                <td><span class="status pending">Pending</span></td>
+                                <td><a href="#">View Details</a></td>
+                            </tr>
+                            <tr>
+                                <td>Health Insurance Renewal</td>
+                                <td>10 Oct, 2023</td>
+                                <td><span class="status approved">Approved</span></td>
+                                <td><a href="#">Download Certificate</a></td>
+                            </tr>
+                            <tr>
+                                <td>Business Permit</td>
+                                <td>05 Oct, 2023</td>
+                                <td><span class="status rejected">Additional Info Required</span></td>
+                                <td><a href="#">Provide Info</a></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- MDA Dashboard -->
+    <div id="mda-dashboard" class="dashboard">
+        <div class="dashboard-header">
+            <div class="container">
+                <div class="dashboard-nav">
+                    <div class="dashboard-logo">
+                        <img src="images/ekiti-logo.png" alt="Ekiti Logo" width="80" class="me-2">
+                        <h1>Ekiti ServiceConnect</h1>
+                    </div>
+                    <button class="mobile-menu-btn" id="mda-menu-btn">
+                        <i class="fas fa-bars"></i>
+                    </button>
+                    <div class="dashboard-user">
+                        <div class="user-info">
+                            <div class="name">Bureau of Land Services</div>
+                            <div class="role">MDA Official</div>
+                        </div>
+                        <div class="user-avatar">BL</div>
+                        <button class="logout-btn" id="mda-logout">Logout</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="dashboard-sidebar" id="mda-sidebar">
+            <ul class="sidebar-menu">
+                <li><a href="#" class="active"><i class="fas fa-home"></i> Dashboard</a></li>
+                <li><a href="#"><i class="fas fa-tasks"></i> Applications</a></li>
+                <li><a href="#"><i class="fas fa-chart-bar"></i> Analytics</a></li>
+                <li><a href="#"><i class="fas fa-users"></i> User Management</a></li>
+                <li><a href="#"><i class="fas fa-cog"></i> Service Settings</a></li>
+                <li><a href="#"><i class="fas fa-file-alt"></i> Reports</a></li>
+                <li><a href="#"><i class="fas fa-question-circle"></i> Support</a></li>
+            </ul>
+        </div>
+
+        <div class="dashboard-content" id="mda-content">
+            <div class="dashboard-main">
+                <h2 class="dashboard-title">MDA Dashboard - Bureau of Land Services</h2>
+                
+                <div class="stats-cards">
+                    <div class="stat-card">
+                        <div class="number">142</div>
+                        <div class="label">Pending Applications</div>
+                    </div>
+                    <div class="stat-card yellow">
+                        <div class="number">658</div>
+                        <div class="label">Processed This Month</div>
+                    </div>
+                    <div class="stat-card red">
+                        <div class="number">23</div>
+                        <div class="label">Require Attention</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="number">94%</div>
+                        <div class="label">Satisfaction Rate</div>
+                    </div>
+                </div>
+
+                <div class="dashboard-section">
+                    <h3 class="dashboard-section-title"><i class="fas fa-exclamation-circle"></i> Applications Requiring Attention</h3>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Application ID</th>
+                                <th>Applicant</th>
+                                <th>Service Type</th>
+                                <th>Date Submitted</th>
+                                <th>Status</th>
+                                <th>Action</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>LS-2023-0876</td>
+                                <td>Adeola Johnson</td>
+                                <td>Land Title Registration</td>
+                                <td>15 Oct, 2023</td>
+                                <td><span class="status pending">Document Review</span></td>
+                                <td><a href="#">Review</a></td>
+                            </tr>
+                            <tr>
+                                <td>LS-2023-0921</td>
+                                <td>Chinedu Okoro</td>
+                                <td>Land Search</td>
+                                <td>14 Oct, 2023</td>
+                                <td><span class="status rejected">Additional Info Needed</span></td>
+                                <td><a href="#">Follow Up</a></td>
+                            </tr>
+                            <tr>
+                                <td>LS-2023-0945</td>
+                                <td>Bola Ahmed</td>
+                                <td>Property Transfer</td>
+                                <td>13 Oct, 2023</td>
+                                <td><span class="status pending">Payment Verification</span></td>
+                                <td><a href="#">Verify</a></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+
+                <div class="dashboard-section">
+                    <h3 class="dashboard-section-title"><i class="fas fa-chart-line"></i> Performance Metrics</h3>
+                    <div style="background-color: #f5f5f5; height: 200px; border-radius: 8px; display: flex; align-items: center; justify-content: center; color: #0a5c36;">
+                        Performance Charts Would Appear Here
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>

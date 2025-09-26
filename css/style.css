@@ -1,0 +1,49 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: #fff;
+  color: #333;
+}
+.navbar {
+  background: transparent;
+}
+.brand-title {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #2c3e50;
+}
+.subheading {
+  font-size: 1.2rem;
+  color: #555;
+}
+.hero .carousel-caption {
+  background: rgba(0,0,0,0.45);
+  padding: 20px;
+  border-radius: 10px;
+}
+.carousel-item img {
+  height: 500px;
+  object-fit: cover;
+}
+/* About Section */
+#about {
+  background: #d7f0b5;
+  color: #333;
+  padding: 60px 20px;
+  border-radius: 40px 40px 0 0;
+}
+#about h2 {
+  font-weight: 700;
+  margin-bottom: 20px;
+  color: #006400;
+}
+
+/* CTA Section */
+#cta {
+  background: linear-gradient(135deg, #28a745, #007bff);
+}
+#cta h2 {
+  font-weight: 700;
+}
+footer {
+  font-size: 0.9rem;
+}
